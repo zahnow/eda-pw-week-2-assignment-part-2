@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We set the name variable to be equal to 'Dane'. 
+// We then check to see if the name is strictly equal to 'Mary' (it won't be) and if it is, we print "Hi, Mary!" to the console.
+// Since it isn't strictly equal, we print "How do you do?" to the console instead.
 
 //CODE
 /*
@@ -45,10 +44,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//  We declare two variables, 'secret' and 'code', and we set 'code' to be equal to 123.
+// We then code to see if 'code' is strictly equal to 123 and if it is, we assign our secret variable to be equal to "super" and multiply our code variable by two.
+// We then check to see if code is greater than 250, and if it is, we set the value of secret to 'duper'. This won't happen since code is 246.
+// We then print the value of secret to the console.
 
 //CODE
 /*
@@ -70,10 +69,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We start by declaring three variables: isStudent, age, and zip, which are set to true, 34, and 55407 respectively.
+// We then check if isStudent is true and zip is greater than 80000. If they are, we print "You're a student on the West Coast!" to the console.
+// If not, we check to see if isStudent is false or age is less than 30. If either condition is true, we print "What are your hobbies?" to the console.
+// If not, we check to see if isStudent is true. If so, we print "Welcome to Prime!" to the console.
+// If none of the conditions above are met, we print "How about the weather?" to the console.
+// Since student is true, but our zip code is under 80000 and our age is over 30, we print "Welcome to Prime!" in the console.
 
 //CODE
 /*
@@ -130,11 +131,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX: The color values are swapped.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  // FIX: We only set colorOne to purple—should also set colorTwo.
   colorOne = 'purple';
 }
 */
@@ -147,6 +150,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX: The OR should be an AND.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +164,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX: As written, our console messages should be flipped. 
+// However, I think the better fix is to rewrite the if statement to (age <= minAge) since I think that just reads better.
 if(minAge <= age) {
   console.log('no entry');
 } else {
