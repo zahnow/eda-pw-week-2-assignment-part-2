@@ -44,8 +44,8 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//  We declare two variables, 'secret' and 'code', and we set 'code' to be equal to 123.
-// We then code to see if 'code' is strictly equal to 123 and if it is, we assign our secret variable to be equal to "super" and multiply our code variable by two.
+// We declare two variables, 'secret' and 'code', and we set 'code' to be equal to 123.
+// We then check to see if 'code' is strictly equal to 123 and if it is, we assign our secret variable to be equal to "super" and multiply our code variable by two.
 // We then check to see if code is greater than 250, and if it is, we set the value of secret to 'duper'. This won't happen since code is 246.
 // We then print the value of secret to the console.
 
